@@ -1,6 +1,7 @@
 package com.nacerbits;
 
 public interface CategoryInterface {
-    String getName();
     String getCode();
+    String getName();
+    String getCodeAndName();
 }
